@@ -1,7 +1,5 @@
 setTimeout(() => {
-    document.getElementById("box").innerText = "10";   
-    var style =  document.getElementById("box");
-    style.className = "font-effect-neon";
+    document.getElementById("box").innerText = "10";      
     setTimeout(() => {
       document.getElementById("box").innerText = "9";
       setTimeout(() => {
